@@ -4,9 +4,13 @@ import { contactPage } from './contact.js';
 
 const navBar = document.getElementById("nav-bar");
 
-const mainPageTab = document.createElement('button').innerText = "Home";
-const menuPageTab = document.createElement('button').innerText = "Menu";
-const contactPageTab = document.createElement('button').innerText = "Contact";
+const mainPageTab = document.createElement('button');
+const menuPageTab = document.createElement('button');
+const contactPageTab = document.createElement('button');
+
+mainPageTab.innerText = "Home";
+menuPageTab.innerText = "Menu";
+contactPageTab.innerText = "Contact";
 
 navBar.appendChild(mainPageTab);
 navBar.appendChild(menuPageTab);
